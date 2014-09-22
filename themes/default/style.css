@@ -1,0 +1,104 @@
+body {
+    font-family: Calibri, Arial;
+    background: url("http://i.imgur.com/sAbJrbu.jpg") black;
+    color: black;
+}
+a:link,a:visited {
+    color: rgb(9,75,152);
+    text-decoration:none;
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+a:active {
+    color: rgb(9,75,152);
+    text-decoration:none;
+}
+table {
+
+}
+
+td {
+    padding: 5px;
+}
+
+#generalFooter {
+    border:1px solid black;
+
+background:rgb(8,145,185);
+    border-radius:5px;
+    text-align:center;
+    padding:5px;
+    box-shadow: 5px 5px 5px #888;
+}
+
+#mainTitle {
+    border:1px solid black;
+    background:rgb(8,145,185);
+    border-radius:15px;
+    box-shadow: 5px 5px 5px #333;
+    width:800px;
+    text-align:center;
+    margin-bottom:8px;
+    vertical-align: middle;
+}
+
+#titleText {
+    font-size: 24pt;
+    display: block;
+    vertical-align:bottom;
+}
+
+
+#container {
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#categoryTable {
+    border: 1px solid black;
+    background:rgb(8,145,185);
+    border-radius: 10px 10px 10px 10px;
+    width:100%;
+    margin:0px;
+}
+#categoryTable tr th {
+
+    margin:0px;
+}
+#categoryName {
+    text-align:center;
+}
+#boardTable {
+    margin:0px;
+    width:100%;
+    border-collapse: collapse;
+    background:rgb(8,145,185);
+}
+#boardTable tr td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#boardTable tr th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+#topicLabel, #postLabel {
+    width: 75px;
+}
+
+#boardName {
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+#boardDescription {
+    font-size: 11pt;
+}
+
+#topicCount, #postCount {
+    text-align:center;
+}
